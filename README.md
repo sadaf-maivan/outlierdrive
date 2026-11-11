@@ -70,3 +70,19 @@ RbA, and temperature-scaled MSP.
 
 The root dependencies are listed in `requirements.txt` and `environment.yml`.
 EoMT-specific dependencies are listed in `eomt/requirements.txt`.
+
+
+
+## My Contribution
+
+This repository is a fork of the **OutlierDrive** academic team project developed at Politecnico di Torino for road-scene anomaly segmentation and robust perception in autonomous driving.
+
+My main contributions included:
+
+- Evaluation of **EoMT** models for semantic and anomaly segmentation
+- Implementation and evaluation of post-hoc anomaly/OOD baselines, including **MSP, MaxLogit, MaxEntropy, and RbA**
+- Experiments with **temperature scaling** for confidence calibration
+- Analysis and interpretation of experimental results across road-anomaly datasets
+- Substantial contribution to the final technical report
+
+The project compares pixel-based **ERFNet** and mask-based **EoMT** approaches and investigates how different model checkpoints and anomaly-scoring methods affect out-of-distribution detection in road scenes.
